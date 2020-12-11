@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a61df51-f473-4185-8450-07e5a099d539" name="デフォルト変更リスト" comment="" />
+    <list default="true" id="8a61df51-f473-4185-8450-07e5a099d539" name="デフォルト変更リスト" comment="">
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +139,7 @@
       <updated>1607697673400</updated>
       <workItem from="1607697676395" duration="31000" />
       <workItem from="1607697760889" duration="25000" />
-      <workItem from="1607697807319" duration="197000" />
+      <workItem from="1607697807319" duration="460000" />
     </task>
     <servers />
   </component>
