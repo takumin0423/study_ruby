@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a61df51-f473-4185-8450-07e5a099d539" name="デフォルト変更リスト" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/study-ruby-design-patterns-ec-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study-ruby-design-patterns-ec-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +23,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Rails.Development: study-ruby-design-patterns-ec-app">
     <configuration name="Development: study-ruby-design-patterns-ec-app" type="RailsRunConfigurationType" factoryName="Rails">
@@ -139,7 +144,7 @@
       <updated>1607697673400</updated>
       <workItem from="1607697676395" duration="31000" />
       <workItem from="1607697760889" duration="25000" />
-      <workItem from="1607697807319" duration="460000" />
+      <workItem from="1607697807319" duration="4941000" />
     </task>
     <servers />
   </component>

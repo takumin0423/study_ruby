@@ -1,0 +1,2 @@
+class AccountRank < ApplicationRecord
+end

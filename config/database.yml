@@ -11,7 +11,9 @@ default: &default
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  host: localhost
+  database: gof_design_development # <== 追加
+  user: postgres # <== 追加
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
