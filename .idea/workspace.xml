@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a61df51-f473-4185-8450-07e5a099d539" name="デフォルト変更リスト" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/study-ruby-design-patterns-ec-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study-ruby-design-patterns-ec-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +140,7 @@
       <updated>1607697673400</updated>
       <workItem from="1607697676395" duration="31000" />
       <workItem from="1607697760889" duration="25000" />
-      <workItem from="1607697807319" duration="4941000" />
+      <workItem from="1607697807319" duration="5295000" />
     </task>
     <servers />
   </component>
