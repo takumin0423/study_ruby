@@ -9,4 +9,6 @@ class Account < ApplicationRecord
     administrator: 1,
     shopper: 2
   }
+
+  scope :system_user, -> { where(account_type: Account.account_types[:systemadmin]).last }
 end
