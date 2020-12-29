@@ -6,4 +6,6 @@ class Operation < ApplicationRecord
     admin: 1,
     user: 2
   }
+
+  scope :dashboard, -> { where({ sub_type: 1 }).last }
 end
