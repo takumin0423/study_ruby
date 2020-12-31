@@ -2,7 +2,11 @@ class TestController < ApplicationController
   before_action :only_development
 
   def index
-    render json: {}, status: 200
+    logger1 = AnyLogger.instance
+    logger2 = AnyLogger.instance
+    logger2.add_logs(title: 'test', description: 'This is test for flush logs 1', account: Account.system_user, operation: Operation.dashboard)
+
+    render json: { logger1: logger1.object_id, logger2: logger2.object_id }, status: 200
   end
 
   def get_stock_list
