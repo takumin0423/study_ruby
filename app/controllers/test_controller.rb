@@ -10,7 +10,14 @@ class TestController < ApplicationController
   end
 
   def get_stock_list
-    render json: {}, status: 200
+    default_client = StockClient.new
+    store_amount = default_client.get_stock(1)
+    # render json: {store_amount: store_amount}, status: 200
+
+    # ↓ここから追加
+    default_client = StockClient.new(EcStockAdapter.new(ECStockClient.new))
+    ec_amount = default_client.get_stock(3)
+    render json: {store_amount: store_amount, ec_amount: ec_amount}, status: 200
   end
 
   def create_order

@@ -12,7 +12,7 @@ class AnyLogger
     @commands << { cmd: command, decorator: decorator }
   end
 
-  def add_logs(title:, description:, account:, operation:)
+  def add_logs(title, description, account, operation)
     @logs << { title: title, description: description, account: account, operation: operation }
   end
 

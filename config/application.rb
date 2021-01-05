@@ -17,5 +17,6 @@ module StudyRubyDesignPatternsEcApp
     # the framework and any gems in your application.
     config.autoload_paths += %W(#{config.root}/app/models/factories)
     config.autoload_paths += %W(#{config.root}/lib/logger)
+    config.autoload_paths += %W(#{config.root}/lib/stock)
   end
 end

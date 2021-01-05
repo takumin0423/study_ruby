@@ -1,0 +1,3 @@
+class StockClientProxy
+
+end
