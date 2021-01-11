@@ -6,7 +6,7 @@ class Order < ApplicationRecord
 
   enum delivery_method: {
     express: 0,
-    limit: 1
+    mail: 1
   }
 
   enum payment_method: {
