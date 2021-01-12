@@ -74,7 +74,17 @@ class TestController < ApplicationController
   end
 
   def formatter_plain
-    render json: {}, status: 200
+    shopper = Account.where(account_type: Account.account_types[:shopper]).last
+    query = OrderQuery::WithAccount.new.by_account(shopper)
+    @order = query.relation.last
+
+    # OrderBuilderの生成
+    order_builder = OrderBuilder.new(@order)
+    order_builder = order_builder.set_mask.visible_account.visible_address.visible_order_details
+
+    # 通知本文の生成
+    notify = ReportChat::Notify.new(order_builder, ReportChat::TextFormatter.new)
+    render plain: notify.output, status: 200
   end
 
   private
