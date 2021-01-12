@@ -19,5 +19,6 @@ module StudyRubyDesignPatternsEcApp
     config.autoload_paths += %W(#{config.root}/lib/logger)
     config.autoload_paths += %W(#{config.root}/lib/stock)
     config.autoload_paths += %W(#{config.root}/lib/order)
+    config.autoload_paths += %W(#{config.root}/lib/product)
   end
 end
