@@ -54,7 +54,19 @@ class TestController < ApplicationController
   end
 
   def send_mail_plain
-    render json: {}, status: 200
+    # 注文情報を1件取得
+    shopper = Account.where(account_type: Account.account_types[:shopper]).last
+    query = OrderQuery::WithAccount.new.by_account(shopper)
+    @order = query.relation.last
+
+    # OrderBuilderの生成
+    order_builder = OrderBuilder.new(@order)
+    order_builder.set_mask.visible_account.visible_address.visible_order_details
+
+    # メール本文の生成
+    text_report = ReportMail::TextReport.new(order_builder)
+
+    render plain: text_report.output_report, status: 200
   end
 
   def send_mail_html
